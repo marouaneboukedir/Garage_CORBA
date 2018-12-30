@@ -1,0 +1,137 @@
+*{
+	-fx-primary-color : #331C0E ; 
+	-fx-secondary-color : #D27651 ;
+	-fx-primaryText-color : #B2B2B2 ;
+	-fx-wrong-access-color : #FF0000;
+	-fx-menuText-color : #543B39 ;
+	-fx-user_pane-color : #424242;
+	-fx-assistant-menu-color : #402316;
+}
+
+
+.root{
+    -fx-background-color: -fx-primary-color	;
+}
+
+.glyph-icon{
+	-fx-fill : -fx-secondary-color ;
+}
+
+.button{
+	-fx-text-fill : -fx-secondary-color ;
+	-fx-background-color : -fx-primary-color ;	
+}
+
+
+.principal-theme-button{
+	-fx-border-color : -fx-secondary-color ;
+	-fx-border-radius : 20px ;
+	-fx-background-radius : 20px ;
+	-fx-font-size : 15px ;
+}
+.principal-theme-button:hover{
+	-fx-border-color : -fx-secondary-color ;
+	-fx-text-fill : -fx-primary-color ;	
+	-fx-border-radius : 20px ;
+	-fx-background-color : -fx-secondary-color ;
+	-fx-background-radius : 20px ;
+}
+.text-field{
+	-fx-font-size : 13pt;
+	-fx-text-fill : -fx-primaryText-color ; 
+	-jfx-focus-color : -fx-secondary-color ;
+	-jfx-unfocus-color : #AAAAAA ;
+}
+
+.failure{
+	-jfx-focus-color :-fx-wrong-access-color;
+	-jfx-unfocus-color :-fx-wrong-access-color;
+	-fx-text-fill : -fx-wrong-access-color ;
+}
+
+.menu-text{
+    -fx-fill : -fx-menuText-color ;
+    -fx-font-family : cambria ;
+    -fx-font-size : 12px ;
+}
+.menu-legend-text{
+    -fx-fill : black ;
+    -fx-font-family : cambria ;
+    -fx-font-size : 22px ;
+}
+.menu_pane{
+    -fx-background-color : white ;
+    -fx-padding : 20px ;
+    -fx-cursor : hand ;
+}
+.user_pane{
+    -fx-opacity : 0.5 ;
+    -fx-background-color : -fx-user_pane-color ;
+}
+
+.user_icon{
+    -fx-fill : black ;
+}
+
+.assistant-menu{
+    -fx-background-color : -fx-assistant-menu-color ;
+}
+
+.combo-box > .list-cell {
+-fx-text-fill: white;
+}
+
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+

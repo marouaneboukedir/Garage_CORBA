@@ -1,0 +1,24 @@
+module comV2 {
+	struct Voiture{
+			string matricule;
+			string marque;
+	};
+	typedef sequence<Voiture> VoituresList;
+	module guichetLocation{
+		interface GuichetLocation{
+		attribute long l;
+		attribute VoituresList voituresLoc;
+		oneway void louer();	
+		};
+	};
+
+	module guichetRestitution{
+		interface GuichetRestitution{
+		attribute long r;
+		readonly attribute long nbMax;
+		attribute VoituresList voituresRest;
+		
+		oneway void restituer();
+		}; 
+	};
+};

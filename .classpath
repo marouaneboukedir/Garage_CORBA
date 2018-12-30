@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="src/libs/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="src/libs/derby.jar"/>
+	<classpathentry kind="lib" path="src/libs/derbyclient.jar"/>
+	<classpathentry kind="lib" path="src/libs/fontawesomefx-commons-8.15.jar"/>
+	<classpathentry kind="lib" path="src/libs/fontawesomefx-fontawesome-4.7.0-5.jar"/>
+	<classpathentry kind="lib" path="src/libs/gson-2.8.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/jfoenix-8.0.8.jar"/>
+	<classpathentry kind="lib" path="src/libs/jfxswt.jar"/>
+	<classpathentry kind="lib" path="src/libs/mysql-connector-java-5.1.41-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
